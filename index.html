@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://png.pngtree.com/png-vector/20230318/ourmid/pngtree-the-books-clipart-vector-png-image_6653533.png" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Manager Tasks</title>
+</head>
+<body>
+
+    <header id="cabecalho">
+        <div class="logo">
+            <img src="https://png.pngtree.com/png-vector/20230318/ourmid/pngtree-the-books-clipart-vector-png-image_6653533.png" alt="">
+            <h1 id="titulo"> <span id="manager">MANAGER TASKS</span> <br> ONLINE</h1>
+        </div>
+       
+    </header>
+
+<main>
+    <section class="sec1">
+
+            <div id="div1">
+                <h1 class="caixa_title">TO MANAGE TASKS</h1>
+                <form class="form" action="">
+                    <input class="addTask" type="text" placeholder="Read your task">
+
+                    <div id="botoes">
+                        <button onclick="adicionar" id="botaoAdd">Add task</button>
+                        <button type="reset" id="botaoRemove">Reset</button>
+                    </div>
+                    
+
+                </form>
+
+            </div>
+            <div id="list">
+                <ul class="listagem">
+            
+                </ul>
+            </div>
+    </section>
+</main>
+    
+    <script src="./script.js"></script>
+</body>
+</html

@@ -1,0 +1,191 @@
+body{
+    background: linear-gradient(100deg, #2c2c2c, #062e3f);
+}
+
+main{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    padding: 25px 80px;
+    background-color: #062e3fb0;
+    color: #E5E5E5 ;
+    box-shadow: 0px 0px 30px black;
+    z-index: 100;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+#manager{
+    font-size: 23px;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+#titulo{
+    font-size: 20px;
+    line-height: 1.5rem;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+#cabecalho img{
+    height: 50px;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa_title{
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    margin-bottom: 20px;
+}
+
+#div1{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#botaoAdd{
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: -3px 4px 5px black;
+    transition: ease-in-out 200ms;
+    font-weight: bold;
+    max-width: 100px;
+}
+
+#botaoRemove{
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 3px 4px 4px black;
+    transition: ease-in-out 200ms;
+    font-weight: bold;
+    width: 70px;
+}
+
+#botaoRemove:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+#botaoAdd:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+} 
+
+#list{
+    width: 500px;
+    color: white;
+}
+
+
+.listagem{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div_list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.checkbox{
+    width: 20px;
+}
+
+.botao_excluir{
+    font-size: 20px;
+    padding: 5px;
+    transition: ease-in-out 190ms;
+    border-radius: 50%;
+}
+
+.botao_excluir:hover{
+    transform: scale(1.08);
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.listagem li{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_font{
+    border-radius: 15px;
+    border: 2px solid green;
+    text-shadow: 0px 0px 5px rgb(0, 255, 0);
+    color: black;
+}
+
+
+.listagem li button{
+    border-radius: 100%;
+}
+
+
+.addTask{
+    font-size: 20px;
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.addTask:hover{
+    background-color: #efefef;
+}
